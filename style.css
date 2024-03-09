@@ -1,0 +1,35 @@
+header {
+  background-image: url("./assets/vecteezy_seamless-trendy-iridescent-rainbow-foil-texture-soft_22715931.jpg");
+  text-align: center;
+  padding: 40px;
+}
+
+button {
+  background-color: #6c798dff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  text-align: center;
+  padding: 40px;
+}
+
+footer {
+  background-color: #897890ff;
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  .feature-container {
+    flex-direction: column;
+  }
+}
